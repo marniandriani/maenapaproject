@@ -57,13 +57,19 @@ body{
 	float: left;
 	margin-top: 75px;
 	width: 20%;
-	height: 500px;
+	height:500px;
 	background-color:lightgreen;
 	margin-bottom: 10px;
 	border-radius:10px;
-	padding-top:10px;
-	padding-right:10px;
-	padding-left:10px;
+	padding-top:30px;
+	padding-right:30px;
+	padding-left:30px;
+	text-align:justify;
+}
+
+.katapengantar h3{
+	text-align:center;
+	font-size:30px;
 }
 
 .container {

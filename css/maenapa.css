@@ -1,0 +1,269 @@
+﻿#header{
+	font-family:"Jokerman";
+	font-size:30px;
+	background-image:url('../pictures/kids playing 6e.jpg');
+	height:200px;
+	color:hsl(120,60%,70%);
+}
+
+body{
+	font-family:"Kristen ITC";
+}
+
+#menu {
+	background-color:hsl(120,60%,70%);
+	height:50px;
+	margin-left:-10px;
+	margin-right:-10px;
+}
+
+#menu nav{
+	margin-left:auto;
+	margin-right:10px;
+	display:table;
+	padding-top:30px;
+	font-family:"Kristen ITC";
+	font-size:17px;
+}
+
+#menu a{
+	margin-left:25px;
+	margin-right:25px;
+	padding-left:25px;
+	padding-right:25px;	
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.nav a:link,a:visited{
+	text-decoration:none;
+	color:white;
+	background-color:silver;
+}
+
+.nav a:hover{
+	text-decoration:underline;
+	color:navy;
+	background-color:hsla(165, 66%, 52%, 0.9);
+}
+
+.katapengantar{
+	position: relative;
+	float: left;
+	margin-top: 75px;
+	width: 20%;
+	height: 500px;
+	background-color:lightgreen;
+	margin-bottom: 10px;
+	border-radius:10px;
+	padding-top:10px;
+	padding-right:10px;
+	padding-left:10px;
+}
+
+.container {
+  margin-top: 75px;
+  margin-left:500px;
+  width: 50%;
+  background-color:gray;
+  min-height:300px;
+}
+
+.slider {
+	width: 100%;
+	overflow: hidden;
+	height: 500px;
+	position: relative;
+}
+
+.slider ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: absolute;
+	width: 300%;
+	height: 100%;
+	top: 0;
+}
+
+.slider li {
+	padding: 0;
+	margin: 0;
+	width: 33.333333%;
+	height: 100%;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+}
+
+.slider li img {
+	border: none;
+	width: 100%;
+	min-height: 100%;
+}
+
+.slider button {
+	position: absolute;
+	display: block;
+	box-sizing: border-box;
+	border: none;
+	outline: none;
+	top: 0;
+	bottom: 0;
+	width: 20%;
+	background-color: rgba(0, 0, 0, 0.3);
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	text-align:center;
+	opacity: 0;
+	z-index: 2;
+}
+
+.slider button.prev {
+	left: 0;
+	font-family:"Kristen ITC";
+}
+
+.slider button.next {
+	right: 0;
+	font-family:"Kristen ITC";
+}
+
+.slider button:hover, .slider button:active {
+	opacity: 1.0;
+}
+
+.slider .caption {
+	z-index: 3;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 3em;
+	box-sizing: border-box;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	line-height: 3em;
+	padding: 0 1em;
+	font-size: 1.5em;
+}
+
+.slider .caption a {
+	color: inherit;
+}
+
+p{
+	font-size:14px;
+}
+
+.tradisional{
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.tradisional img{
+    width:200px;
+    height:150px;
+    border:solid;
+    border-color:black;
+    float:left;
+    margin-left:100px;
+    padding:1px;
+}
+
+.tradisional h3{
+	margin-left:315px;
+}
+
+.tradisional p{
+	margin-left:315px;
+}
+
+.tradisional button{
+	margin-left:8px;
+}
+
+.digital{
+	display:inline-block;
+	margin-top:20px;
+	height:200px;
+}
+
+.digital img{
+	width:180px;
+	height:180px;
+	border:solid;
+	border-color:black;
+	float:left;
+	margin-left:100px;
+	padding:1px;
+}
+
+.digital h3{
+	margin-left:300px;
+}
+
+.digital p{
+	margin-left:300px;
+}
+
+.digital button{
+	margin-left:10px;
+}
+
+#wrapper-tempat-liburan{
+	margin-left:30px;
+	height:1500px;
+	font-family:"Kristen ITC";
+}
+
+#wrapper-tempat-liburan h2{
+	padding-top:30px;
+	text-align:center;
+	color:red;
+}
+.tempat-liburan img{
+	float:left;
+	height:150px;
+	width:200px;
+}
+.tempat-liburan h3{
+	margin-left:250px;
+	line-height:1.5;
+	color:red;
+}
+.tempat-liburan p{
+	margin-left:250px;
+	line-height:1.5;
+}
+.readmore{
+	margin-left:250px;
+	font-family:"Kristen ITC";
+}
+
+#footer {
+	position: relative;
+	height: 150px;
+	background-image:url('../pictures/kids playing 6d.jpg');
+	clear: both;
+	text-align: center;
+}
+
+#copyright{
+	float:left;
+	margin-left: 5px;
+	padding-top: 5px;
+}
+
+#logo{
+	float:right;
+	margin-right: 5px;
+	padding-top: 5px;
+}
+
+h5{
+	text-align:left;
+}
+

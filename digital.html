@@ -1,0 +1,140 @@
+﻿<!DOCTYPE HTML>
+
+<html>
+<head>
+<title>Digital</title>
+<link rel="stylesheet" type="text/css" href="css/maenapa.css">
+</head>
+
+<body>
+
+	<div id="header">
+		<h1>MaenApa</h1>
+	</div><!--header-->
+	
+	<div id="menu">
+		<div class="nav">
+			<nav>
+				<a href="utama.html">Utama</a>
+				<a href="tradisional.html">Tradisional</a>
+				<a href="digital.html">Digital</a>
+				<a href="wisata.html">Taman Bermain</a>
+			</nav>
+		</div> <!-- nav -->
+	</div> <!-- menu -->
+
+	
+	<div id="wrapper-digital">
+		<div id="mainandigital">
+		<h2>PERMAINAN DIGITAL</h2>
+			<p>
+			Permainan Digital adalah permainan yang dimainkan memakai alat elektronik. Umumnya, permainan ini disebut
+			Permainan Video (Video Game), yakni permainan elektronik yang menggunakan layar. Peralatan yang menggunakan
+			layar ini berkembang dari awalnya TV, computer, permainan arcade, layar LCD genggam, telpon genggam hingga
+			layar sentuh yang banyak berkembang akhir-akhir ini.
+			</p>
+			<p>
+			Untuk memainkan permainan ini, dibutuhkan alat yang menghubungkan pemainnya dengan layar yang digunakannya.
+			Alat ini disebut "game controller", seperti joystick, tombol,  keyboard, mouse dan layar sentuh. Saat ini,
+			permainan pun berkembang dimana pemainnya bisa berinteraksi dengan pemain lain, dengan menggunakan internet.
+			</p>
+			<p>
+			Saat ini banyak sekali permainan digital yang bisa dimainkan oleh semua kelompok usia. Berikut ada 3 contoh
+			permainan yang dimainkan menggunakan jenis layar yang berbeda.			
+			</p>
+			
+			<div class="digital">
+				<img src="pictures/minecraft logo.jpg" alt="Minecraft Logo" style="width:180x;height:180px";>
+				<h3>Minecraft</h3>
+				<p>Minecraft adalah permainan digital yang diciptakan tahun 2011 oleh seorang programer asal Swedia dan
+				diplubikasikan oleh Mojang.</p>				
+				<div style="display:none;" id="readMore1">
+					<p>Permainan ini dapat dimainkan dengan menggunakan PC, Xbox,Playstation dan smartphone. Dalam Minecraft,
+					pemain dapat menciptakan bangunan dengan menggunakan kubus 3D yang bertekstur. Selain menciptakan bangungan,
+					pemain juga dapat bereksplorasi, berpetualang, menciptakan dunia sendiri dan bergabung dengan pemain yang
+					lain di dunia yang diciptakannya.</p>
+				</div><!--style-->
+					<button onclick="readMore1()">Read more</button>
+					<!--alternatif
+					<img src="pictures/minecraft contoh 1.jpg" alt="Contoh Minecraft 1" style="width:128px;height:128px;">
+					<img src="pictures/minecraft contoh 2.jpg" alt="Contoh Minecraft 2" style="width:128px;height:128px;">	
+					-->	
+			</div><!--digital-->		
+			
+			<div class="digital">
+				<img src="pictures/pvz logo.jpg" alt="PvZ Logo" style="width:180px;height:180px";>
+				<h3>Plant vs Zombies</h3>
+				<p>Plant vs Zombies (atau yang biasa disingkat PvZ) adalah sebuah permainan digital yang dikembangkan dan
+				diciptakan oleh PopCap Games tahun 2009.</p>
+				<div style="display:none;" id="readMore2">
+					<p>Tujuan permainan ini adalah mencegah pasukan Zombie masuk rumah dengan mengerahkan pasukan tanaman untuk
+					melawannya. PvZ awalnya diciptkan untuk PC kemudian dikembangkan untuk bisa dimainkan dengan Xbox, Nintendo,
+					Playstation dan smartphone. Selain PvZ, ada kelanjutannya juga, yakni PvZ 2, PvZ Garden Warfare 1 dan 2
+					serta PvZ Superhero yang rencananya akan diluncurkan tahun ini.</p>
+				</div><!--style-->
+					<button onclick="readMore2()">Read more</button>
+					<!--alternatif
+					<img src="pictures/pvz contoh 1.jpg" alt="Contoh PvZ 1" style="width:128px;height:128px;">
+					<img src="pictures/pvz contoh 2.png" alt="Contoh PvZ 2" style="width:128px;height:128px;">
+					-->
+			</div><!--digital-->
+			
+			<div class="digital">
+				<img src="pictures/lego star wars logo.jpg" alt="Lego Star Wars Logo" style="width:180px;height:180px;">
+				<h3>Lego Star Wars</h3>
+				<p>Lego Star Wars adalah permainan digital yang diciptakan tahun 2005, diambil dari cerita Star Wars dengan
+				tokoh terbuat dari mainan Lego.</p>
+				<div style="display:none;" id="readMore3">	
+					<p>Permainan ini dapat dimainkan di Xbox, PS, Windows, Nintento dan Mac. Pemain dihadapkan dengan 3 episode,
+					masing-masing terdiri dari 6 bab. Dalam setiap bab, pemain harus mengalahkan musuh sambil mengumpulkan uang
+					dan nyawa. Uang dapat digunakan untuk membeli karakter dan asesoris tambahan. Setelah semua episode dimainkan,
+					terdapat episode bonus.</p>
+				</div><!--style-->
+					<button onclick="readMore3()">Read more</button>
+					<!--alternatif
+					<img src="pictures/lego star wars contoh 1.jpg" alt="Lego Star Wars Contoh 1" style="width:128px";height:128px;">
+					<img src="pictures/lego star wars contoh 2.jpg" alt="Lego Star Wars Contoh 2" style="width:128px";height:128px;">
+					-->
+			</div><!--digital-->
+			<p>Tentu permainan di atas hanya sebagian kecil dari sekian banyak permainan digital yang ada. Pastikan
+			pilih permainan yang cocok untuk usia anak.</p>
+		</div><!--mainandigital-->	
+	</div><!--wrapper digital-->
+
+	<div id="footer">
+		<!--<h5>@Copyright2016 MaenApa.com by Coding Mums Bogor</h5>-->
+	</div><!--footer-->
+
+<script>
+	function readMore1(){
+	var temp=document.getElementById("readMore1").style.display;
+	if(temp=="none")
+		document.getElementById("readMore1").style.display="block";
+	else
+		document.getElementById("readMore1").style.display="none";
+	}
+</script>
+
+<script>
+	function readMore2(){
+	var temp=document.getElementById("readMore2").style.display;
+	if(temp=="none")
+		document.getElementById("readMore2").style.display="block";
+	else
+		document.getElementById("readMore2").style.display="none";
+	}
+</script>
+
+<script>
+	function readMore3(){
+	var temp=document.getElementById("readMore3").style.display;
+	if(temp=="none")
+		document.getElementById("readMore3").style.display="block";
+	else
+		document.getElementById("readMore3").style.display="none";
+	}
+</script>
+
+</body>
+
+</html>

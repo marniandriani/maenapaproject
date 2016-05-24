@@ -1,9 +1,14 @@
-﻿#header{
-	font-family:"Jokerman";
-	font-size:30px;
+﻿#header {
 	background-image:url('../pictures/kids playing 6e.jpg');
 	height:200px;
+	
+}
+
+#header a{
+	font-family:"Jokerman";
+	font-size:50px;
 	color:hsl(120,60%,70%);
+	text-decoration:none;
 }
 
 body{
@@ -158,6 +163,12 @@ p{
 	font-size:14px;
 }
 
+h2{
+	color:black;
+	text-align:center;
+	padding-top:30px;
+}
+
 .tradisional{
     display: inline-block;
     margin-top: 20px;
@@ -222,17 +233,20 @@ p{
 #wrapper-tempat-liburan h2{
 	padding-top:30px;
 	text-align:center;
-	color:red;
+	color:black;
 }
 .tempat-liburan img{
 	float:left;
 	height:150px;
 	width:200px;
+	border:solid;
+	border-color:black;
+	padding:1px;
 }
 .tempat-liburan h3{
 	margin-left:250px;
 	line-height:1.5;
-	color:red;
+	color:black;
 }
 .tempat-liburan p{
 	margin-left:250px;
